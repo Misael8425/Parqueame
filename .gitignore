@@ -1,0 +1,51 @@
+# General / OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*.iml
+
+# Node.js (Frontend & Backoffice)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnp
+.pnp.js
+
+# Gradle / Kotlin (Backend & Android)
+.gradle/
+build/
+!src/**/build/
+gradle-app.setting
+!gradle-wrapper.jar
+.gradletasknamecache
+
+# Android
+local.properties
+.cxx/
+*.apk
+*.ap_
+
+# Build Artifacts / Dist
+dist/
+out/
+coverage/
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+*.log
+logs/
