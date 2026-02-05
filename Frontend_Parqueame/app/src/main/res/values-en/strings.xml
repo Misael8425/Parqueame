@@ -1,0 +1,669 @@
+<resources>
+    <!-- ===================== BOTH (Driver and Admin) ===================== -->
+    <string name="app_name">Parqueame</string>
+
+    <string name="close_action">Close</string>
+    <string name="delete_action">Delete</string>
+    <string name="retry_action">Retry</string>
+    <string name="go_back_action">Go Back</string>
+    <string name="error_default">Error</string>
+    <string name="unknown_error">Unknown error</string>
+    <string name="not_applicable">N/A</string>
+    <string name="merchant_display_name">ParqueaMe</string>
+    <string-array name="months_full">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+    <string name="unknown_month">Unknown month</string>
+
+    <!-- Account screens -->
+    <string name="account_title">Account</string>
+    <string name="more_options">More options</string>
+    <string name="profile_photo_cd">Profile photo</string>
+    <string name="loading_ellipsis">Loading...</string>
+    <string name="company_role_fallback">Company</string>
+    <string name="recent_title">Recent</string>
+
+    <!-- Bottom navigation -->
+    <string name="bottom_home">Home</string>
+    <string name="bottom_activity">Activity</string>
+    <string name="bottom_account">Account</string>
+
+    <!-- Cards / General -->
+    <string name="wallet">Wallet</string>
+    <string name="help">Help</string>
+    <string name="language">Language</string>
+    <string name="logout">Log out</string>
+
+    <!-- Language sheet -->
+    <string name="language_sheet_title">App language</string>
+    <string name="language_spanish">Spanish</string>
+    <string name="language_english">English</string>
+
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_activity">Activity</string>
+    <string name="nav_item_account">Account</string>
+    <string name="activity_screen_title">Activity</string>
+    <string name="activity_content_placeholder">Driver activity will go here</string>
+
+    <string name="faq_title">Frequently Asked Questions</string>
+    <string name="all_topics">All Topics</string>
+    <string name="close_content_description">Close</string>
+    <string name="faq_q1">What do I do if I forgot my password?</string>
+    <string name="faq_a1">Go to \'Account\', tap the 3 dots in the top right, then Change password. We will send a code to your email to reset it.</string>
+    <string name="faq_q2">How can I add a new parking lot?</string>
+    <string name="faq_a2">Go to Parking Lots and tap the + button. Fill in all required details and click the \'Request Create Parking Lot\' button.</string>
+    <string name="faq_q3">How do I disable a parking lot?</string>
+    <string name="faq_a3">In My Parking Lots, select the parking lot, tap the 3 dots in the top right, then \'Disable Parking Lot\', confirm your action and that\'s it. Your parking lot will be hidden without losing its configuration.</string>
+    <string name="faq_q4">Can I delete a parking lot?</string>
+    <string name="faq_a4">No, but you can disable it. In My Parking Lots, select the parking lot, tap the 3 dots in the top right, then \'Disable Parking Lot\', confirm your action and that\'s it.</string>
+    <string name="faq_q5">How do I withdraw my funds?</string>
+    <string name="faq_a5">Go to Account > Wallet. Here you will see all your income, they go directly to your bank account and you can withdraw them whenever you want.</string>
+    <string name="faq_q6">How do I edit a parking lot?</string>
+    <string name="faq_a6">Open My Parking Lots, select the parking lot, tap the 3 dots in the top right, then \'Edit Parking Lot\'. Change the necessary data. Tap the \'Request Edit Parking Lot\' button.</string>
+    <string name="faq_q7">Can I receive my funds in more than one account?</string>
+    <string name="faq_a7">No, you can only register one account at a time in the application for now. You can change the bank account in Account > Wallet, click on the 3 dots and then \'Edit bank account\'.</string>
+    <string name="faq_q8">How can I change my bank account?</string>
+    <string name="faq_a8">Go to Account > Wallet > 3 dots > Edit bank account. Change the necessary data and tap the \'Edit bank account\' button.</string>
+    <string name="faq_q9">Why would a parking lot be rejected?</string>
+    <string name="faq_a9">This usually happens due to unclear photos, incomplete address, inconsistent data, or non-compliance with our policies (security, access, or legality). Correct and resubmit.</string>
+
+    <string name="login_again_toast">Please log in again</string>
+    <string name="bank_account_updated_toast">Bank account updated</string>
+    <string name="bank_account_update_failed_toast">Could not update bank account</string>
+    <string name="error_prefix_toast">Error:</string>
+    <string name="close_button_cd">Close</string>
+    <string name="my_wallet_title">My Wallet</string>
+    <string name="greeting_user">Hello, %1$s!</string>
+    <string name="greeting_default">Hello!</string>
+    <string name="total_income">Total Income</string>
+    <string name="currency_format_dop">DOP %.2f</string>
+    <string name="more_options_cd">More options</string>
+    <string name="latest_transactions">Latest Transactions</string>
+    <string name="view_all">View All</string>
+    <string name="no_recent_transactions">No recent transactions.</string>
+    <string name="transaction_amount_format">+ %1$d DOP</string>
+
+    <string name="no_data_found">No data found</string>
+    <string name="parking_image_cd">Parking lot image</string>
+    <string name="hourly_rate_format">%1$d DOP per hour</string>
+    <string name="schedule_label">Schedule</string>
+    <string name="view_action">View</string>
+    <string name="open_options_cd">Open options</string>
+    <string name="available_spots_suffix">available spots (total capacity).</string>
+    <string name="status_label">Status</string>
+    <string name="status_active">Active</string>
+    <string name="status_disabled">Disabled</string>
+    <string name="rejection_reason_prefix">Reason: %1$s</string>
+    <string name="parking_schedule_title">Parking Schedule</string>
+    <string name="no_schedule_configured">This parking lot has no configured schedule.</string>
+    <string name="edit_parking_action">Edit parking lot</string>
+    <string name="enable_parking_action">Enable parking lot</string>
+    <string name="disable_parking_action">Disable parking lot</string>
+    <string name="feature_covered_parking">Covered parking</string>
+    <string name="feature_security_guard">Security guard</string>
+    <string name="feature_accessible_parking">Parking for people with disabilities and pregnant women</string>
+    <string name="feature_underground_parking">Underground parking</string>
+    <string name="feature_on_premise_parking">On-premise parking</string>
+    <string name="feature_open_air_parking">Open-air parking</string>
+    <string name="feature_smart_parking">Smart Parking</string>
+    <string name="feature_ev_charging">Parking with EV charging stations</string>
+    <string name="feature_heavy_vehicles">Parking for heavy vehicles</string>
+    <string name="feature_light_vehicles">Parking for light vehicles (motorcycles, bicycles, etc.)</string>
+    <string name="features_not_specified">Features not specified.</string>
+    <string name="problem_occurred_title">A problem occurred</string>
+
+    <string name="parking_lots_title">Parking Lots</string>
+    <string name="updating_parking_lots_toast">Updating parking lots…</string>
+    <string name="refresh_cd">Refresh</string>
+    <string name="new_parking_lot_cd">New parking lot</string>
+    <string name="my_parking_lots_header">My Parking Lots</string>
+    <string name="no_approved_or_disabled_lots">You have no approved or disabled parking lots</string>
+    <string name="my_requests_header">My Requests</string>
+    <string name="no_pending_or_rejected_requests">You have no pending or rejected requests</string>
+    <string name="loading_your_parking_lots">Loading your parking lots…</string>
+    <string name="status_approved_label">Approved</string>
+    <string name="status_rejected_label">Rejected</string>
+    <string name="status_pending_label">Pending</string>
+    <string name="status_disabled_label">Disabled</string>
+    <string name="available_spots_prefix_card">Available spots: </string>
+
+    <string name="add_payment_method_title">Add Payment Method</string>
+    <string name="card_number_label">Card Number</string>
+    <string name="card_number_placeholder">0000 0000 0000 0000</string>
+    <string name="card_name_label">Name on Card</string>
+    <string name="card_name_placeholder">John Doe</string>
+    <string name="expiry_date_label">Expiry Date</string>
+    <string name="expiry_date_placeholder">MM/YY</string>
+    <string name="expiry_date_help_cd">Expiry date help</string>
+    <string name="cvv_label">CVV</string>
+    <string name="cvv_placeholder">123</string>
+    <string name="cvv_help_cd">CVV help</string>
+    <string name="nickname_optional_label">Nickname (optional)</string>
+    <string name="nickname_placeholder">e.g., joint account or work card</string>
+    <string name="card_holder_default">Cardholder</string>
+    <string name="add_action">Add</string>
+    <string name="brand_amex">American Express</string>
+    <string name="brand_mastercard">Mastercard</string>
+    <string name="brand_visa">Visa</string>
+    <string name="expiry_date_help_description">You\'ll find this date on the front of your card, below the card number.</string>
+    <string name="cvv_help_description">It\'s a three-digit security code that you can find on the back of your card.</string>
+
+    <string name="bootstrap_ok_status">Bootstrap OK (customer %1$s…)</string>
+    <string name="bootstrap_error_http_status">Bootstrap error: HTTP %1$d</string>
+    <string name="bootstrap_failure_status">Bootstrap failure: %1$s</string>
+    <string name="setup_intent_creation_failed_http">Could not create SetupIntent (HTTP %1$d)</string>
+    <string name="setup_intent_network_error">Network error creating SetupIntent</string>
+    <string name="preparing_customer_sheet">Preparing CustomerSheet…</string>
+    <string name="payment_method_updated_status">Payment method updated</string>
+    <string name="operation_cancelled_status">Operation cancelled</string>
+    <string name="error_status_prefix">Error: %1$s</string>
+    <string name="manage_payment_methods_header">Manage payment methods</string>
+    <string name="customer_sheet_configured_status">CustomerSheet configured successfully</string>
+    <string name="customer_sheet_config_error_status">Error configuring CustomerSheet: %1$s</string>
+    <string name="customer_sheet_config_failed_error">Could not configure CustomerSheet</string>
+    <string name="configuring_customer_sheet">Configuring CustomerSheet…</string>
+    <string name="opening_customer_sheet_status">Opening CustomerSheet…</string>
+    <string name="opening_sheet_error_status">Error opening sheet: %1$s</string>
+    <string name="loading_wallet">Loading wallet…</string>
+    <string name="configuring_stripe_customer_sheet">Configuring Stripe CustomerSheet</string>
+    <string name="loading_error_title">Loading Error</string>
+    <string name="card_information_header">Card information:</string>
+    <string name="card_name_info_label">Name on Card:</string>
+    <string name="expiry_date_info_label">Expiration Date:</string>
+    <string name="card_number_info_label">Numbering:</string>
+    <string name="company_info_label">Company:</string>
+    <string name="nickname_info_label">Nickname:</string>
+    <string name="management_cd">Management</string>
+    <string name="chip_cd">Chip</string>
+    <string name="card_number_masked_format">XXXX XXXX XXXX %1$s</string>
+    <string name="card_name_label_on_card">Name on Card</string>
+    <string name="expiry_date_label_on_card">Exp. Date</string>
+    <string name="add_another_payment_method">Add another payment method</string>
+    <string name="edit_payment_method_action">Edit Payment Method</string>
+    <string name="delete_payment_method_action">Delete Payment Method</string>
+    <string name="confirm_delete_payment_method_prompt">Are you sure you want to delete this payment method?</string>
+
+    <string name="edit_bank_account_action">Edit bank account</string>
+    <string name="account_number_label">Account number</string>
+    <string name="enter_your_password_label">Enter your password</string>
+    <string name="select_date_label">Select date</string>
+    <string name="edit_action">Edit</string>
+    <string name="cancel_caps">CANCEL</string>
+    <string name="ok_caps">OK</string>
+
+    <string name="transactions_pdf_prefix">transactions</string>
+    <string name="could_not_load_transactions">Could not load transactions</string>
+    <string name="transactions_title">Transactions</string>
+    <string name="download_pdf_cd">Download PDF</string>
+    <string name="no_transactions_for_month">No transactions for this month.</string>
+    <string name="transactions_pdf_title_prefix">Transactions •</string>
+    <string name="generated_by_parqueame">Generated by ParqueaMe</string>
+    <string-array name="pdf_transaction_headers">
+        <item>Date</item>
+        <item>Parking Lot</item>
+        <item>Address</item>
+        <item>Amount</item>
+        <item>Status</item>
+    </string-array>
+
+    <string name="disable_confirmation_formatted">Are you sure you want to disable: </string>
+    <string name="disable_action">Disable</string>
+    <string name="schedules_disclaimer">Available schedules (see parking lot details).</string>
+
+    <string name="infrastructure_report_title">Infrastructure Report</string>
+    <string name="infrastructure_report_description">The infrastructure report is a detailed document of the entire structure of the parking lot and/or premises. This document must be approved and signed by a Civil Engineer.</string>
+    <string name="infrastructure_report_icon_cd">Infrastructure report icon</string>
+
+    <string name="could_not_load_data">Could not load data</string>
+    <string name="edit_parking_lot_title">Edit Parking Lot</string>
+    <string name="local_name">Local name</string>
+    <string name="address">Address</string>
+    <string name="capacity">Capacity</string>
+    <string name="number_of_spots_placeholder"># of Spots</string>
+    <string name="price_per_hour">Price per hour:</string>
+    <string name="price_x_h_placeholder">Price x h</string>
+    <string name="currency_dop">DOP</string>
+    <string name="add_new_schedule">Add new schedule</string>
+    <string name="select_days">Select days</string>
+    <string name="delete_action_label">Delete</string>
+    <string name="start_time">Start time</string>
+    <string name="end_time">End time</string>
+    <string name="photos">Photos</string>
+    <string name="photo_cd">Photo</string>
+    <string name="delete_photo_cd">Delete</string>
+    <string name="add_photo_cd">Add photo</string>
+    <string name="max_8_photos_toast">Maximum 8 photos allowed</string>
+    <string name="photos_count_format">%1$d/8 photos</string>
+    <string name="features">Features</string>
+    <string name="infrastructure_document">Infrastructure Document</string>
+    <string name="info_cd">Info</string>
+    <string name="upload_document_description">Upload documents such as plans, permits, or certifications</string>
+    <string name="upload_document_placeholder">Upload the document here</string>
+    <string name="upload_cd">Upload</string>
+    <string name="saving_state">Saving…</string>
+    <string name="request_edit_parking_action">Request to edit parking lot</string>
+    <string name="all_fields_required_error">All fields are required</string>
+    <string name="invalid_capacity_error">Invalid capacity</string>
+    <string name="invalid_price_error">Invalid price per hour</string>
+    <string name="missing_parking_id_error">Parking ID is missing from navigation arguments</string>
+    <string name="select_at_least_one_day_error">Select at least one day</string>
+    <string name="add_at_least_one_schedule_error">Add at least one time range</string>
+    <string name="missing_owner_identity_error">Owner identity is missing. Please log in again.</string>
+    <string name="could_not_update_parking_error">Could not update parking lot</string>
+    <string name="unexpected_error">Unexpected error</string>
+    <string name="select_weekdays_title">Select weekdays</string>
+    <string name="select_availability_days_prompt">Select the days the parking lot will be available:</string>
+    <string name="must_select_one_day_error">You must select at least one day</string>
+    <string name="confirm">Confirm</string>
+    <string-array name="parking_features_list">
+        <item>Covered parking</item>
+        <item>Security guard</item>
+        <item>Parking for people with disabilities and pregnant women</item>
+        <item>Underground parking</item>
+        <item>On-premise parking</item>
+        <item>Open-air parking</item>
+        <item>Smart Parking</item>
+        <item>Parking with EV charging stations</item>
+        <item>Parking for heavy vehicles</item>
+        <item>Parking for light vehicles (motorcycles, bicycles, etc.)</item>
+    </string-array>
+    <string-array name="weekdays_full">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+
+    <string name="dialog_days_of_week_title">Select days of the week</string>
+    <string name="dialog_days_of_week_description">Select the days when the parking lot will be available:</string>
+    <string name="dialog_days_of_week_error">You must select at least one day</string>
+
+    <string name="button_confirm">Confirm</string>
+    <string name="button_cancel">Cancel</string>
+
+    <string name="monday_label">Monday</string>
+    <string name="tuesday_label">Tuesday</string>
+    <string name="wednesday_label">Wednesday</string>
+    <string name="thursday_label">Thursday</string>
+    <string name="friday_label">Friday</string>
+    <string name="saturday_label">Saturday</string>
+    <string name="sunday_label">Sunday</string>
+
+    <!-- ScheduleSection -->
+    <string name="schedule_section_title">Schedule</string>
+    <string name="schedule_add_new">Add new schedule</string>
+    <string name="schedule_delete">Delete</string>
+    <string name="schedule_select_days">Select days</string>
+    <string name="schedule_start_time_label">Start time</string>
+    <string name="schedule_end_time_label">End time</string>
+
+    <!-- SolicitudParqueoScreen -->
+    <string name="create_parking_title">Create parking lot</string>
+    <string name="register_parking_action">Register Parking</string>
+
+    <!-- VerSolicitudScreen -->
+    <string name="request_create_parking_title">Request: create parking lot</string>
+    <string name="opening_time_label">Opening time</string>
+    <string name="closing_time_label">Closing time</string>
+    <string name="comment_label">Comment</string>
+    <string name="comment_placeholder">comment...</string>
+    <string name="no_document_available">No document available</string>
+
+    <!-- HomeCompanyScreen / Dashboard -->
+    <string name="download_action">Download</string>
+    <string name="dashboard_label">Dashboard</string>
+
+    <!-- Tabs -->
+    <string name="tab_weekly">Weekly</string>
+    <string name="tab_monthly">Monthly</string>
+    <string name="tab_yearly">Yearly</string>
+
+    <!-- Chart top label -->
+    <string name="top_label_one_k">$1k</string>
+
+    <!-- Metrics labels -->
+    <string name="metric_total_customers">Total Customers</string>
+    <string name="metric_total_cancellations">Total Cancellations</string>
+    <string name="metric_revenue">Revenue</string>
+    <string name="metric_new_customers">New Customers</string>
+
+    <!-- Branch selector (demo data) -->
+    <string name="branch_downtown_center">Downtown Center Parking</string>
+    <string name="branch_plaza_central">Plaza Central</string>
+    <string name="branch_bluemall">BlueMall Parking</string>
+    <string name="branch_location_sample">Avenida José Núñez de Cáceres, SD</string>
+
+    <!-- Months short (just the ones used in the demo) -->
+    <string-array name="months_short_demo">
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+    </string-array>
+
+    <string name="search_cd">Search</string>
+    <string name="search_placeholder_where">Where are you going?</string>
+    <string name="now_label">Now</string>
+    <string name="recent_searches">Recent searches</string>
+    <string name="near_you">Near you</string>
+
+    <string name="brand_title">Parquéame</string>
+    <string name="login_success">Sign-in successful!</string>
+    <string name="login_both_required">Email and password are required</string>
+    <string name="login_user_type_unknown">Could not determine user type</string>
+
+    <string name="park_me_action">Park me</string>
+    <string name="distance_from_you_m">%1$d m away from you</string>
+    <string name="available_spots_count_format">%1$d available</string>
+
+    <string name="otp_info_message">We sent a 6-digit code to your email\nto verify your identity</string>
+    <string name="otp_recovery_code_label">Recovery code:</string>
+    <string name="otp_didnt_receive">I didn’t receive the code</string>
+    <string name="otp_resend">Resend</string>
+    <string name="otp_resend_success">Code resent successfully</string>
+    <string name="otp_verify_button">Verify Code</string>
+    <string name="otp_verifying_ellipsis">Verifying...</string>
+    <string name="back_with_arrow">‹ Back</string>
+
+    <string name="recover_info_message">We will send a code to your email to help you\nrecover your password</string>
+    <string name="email_label">Email:</string>
+    <string name="email_placeholder">Johndoe@example.com</string>
+    <string name="send_action">Send</string>
+    <string name="sending_ellipsis">Sending...</string>
+
+    <string name="reset_password_title">Reset password</string>
+    <string name="new_password_label">New password:</string>
+    <string name="confirm_password_label">Confirm password:</string>
+    <string name="password_placeholder">Password</string>
+    <string name="resetting_ellipsis">Resetting...</string>
+    <string name="reset_action">Reset</string>
+    <string name="password_reset_success">Password reset successfully!</string>
+
+    <string name="register_question_l1">How would you like</string>
+    <string name="register_question_l2">to register?</string>
+    <string name="register_subtitle">We’d love to know how to welcome you</string>
+
+    <string name="role_driver_title">Driver</string>
+    <string name="role_driver_desc">I just want to find parking.</string>
+
+    <string name="role_admin_title">Administrator</string>
+    <string name="role_admin_desc">I want to manage my parking lots.</string>
+
+    <string name="next_action">Next</string>
+    <string name="must_select_option_error">You must select an option.</string>
+
+    <!-- Form labels / placeholders -->
+    <string name="company_name_label">Company Name:</string>
+    <string name="company_name_placeholder">Full company name</string>
+    <string name="rnc_or_id_label">RNC or ID:</string>
+    <string name="rnc_or_id_placeholder">RNC (9 digits) or ID (11 digits)</string>
+    <string name="email_company_placeholder">email@company.com</string>
+    <string name="password_label">Password:</string>
+    <string name="password_min8_placeholder">Minimum 8 characters</string>
+    <string name="repeat_password_placeholder">Repeat password</string>
+    <string name="password_info_cd">Password info</string>
+
+    <!-- Password strength -->
+    <string name="password_strong">Strong password ✓</string>
+    <string name="password_missing_prefix">Missing: %1$s</string>
+    <string name="pw_need_len8">at least 8 characters</string>
+    <string name="pw_need_upper">an uppercase letter</string>
+    <string name="pw_need_lower">a lowercase letter</string>
+    <string name="pw_need_digit">a number</string>
+    <string name="pw_need_special">a special character</string>
+    <string name="pw_match_yes">✓ Passwords match</string>
+    <string name="pw_match_no">✗ Passwords do not match</string>
+
+    <!-- Buttons / status -->
+    <string name="registering_ellipsis">Registering...</string>
+    <string name="validating_rnc_ellipsis">Validating RNC...</string>
+    <string name="register_company_action">Register Company</string>
+
+    <!-- Footer -->
+    <string name="already_have_account_q">Already have an account?</string>
+    <string name="login_here">Log in here</string>
+
+    <!-- Errors / prompts -->
+    <string name="err_company_name_required">Company name is required.</string>
+    <string name="err_company_name_len">Company name must be at least 3 characters.</string>
+    <string name="err_rnc_required">RNC is required.</string>
+    <string name="err_rnc_len">RNC must have 9 digits or ID 11 digits.</string>
+    <string name="err_email_required">Email is required.</string>
+    <string name="err_email_invalid">Please enter a valid email address.</string>
+    <string name="err_password_required">Password is required.</string>
+    <string name="err_confirm_password_required">You must confirm the password.</string>
+    <string name="err_passwords_not_equal">Passwords do not match.</string>
+    <string name="err_terms_required">You must accept the terms and conditions to continue.</string>
+    <string name="err_rnc_invalid_prefix">Invalid RNC: %1$s</string>
+
+    <!-- Register Individual -->
+
+    <string name="full_name_label">Full Name:</string>
+    <string name="full_name_placeholder">Full name</string>
+
+    <string name="cedula_label">ID:</string>
+    <string name="cedula_placeholder">000-0000000-0</string>
+
+    <string name="email_placeholder_user">email@example.com</string>
+
+    <string name="password_placeholder_simple">Password</string>
+
+
+    <string name="confirm_password_placeholder">Confirm password</string>
+
+    <string name="register_action">Register</string>
+
+    <string name="have_account_q">Do you have an account?</string>
+
+
+    <!-- Errors -->
+    <string name="err_fields_empty">Fields cannot be empty</string>
+    <string name="err_cedula_len">ID must have 11 digits (000-0000000-0)</string>
+    <string name="err_cedula_invalid">The entered ID is not valid</string>
+
+    <string name="splash_logo_letter">P</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- General errors -->
+    <string name="error_cargar_perfil">Failed to load profile (%1$d)</string>
+    <string name="error_correo_no_encontrado">Saved email not found</string>
+    <string name="error_generico">Error</string>
+    <string name="foto_eliminada">Photo removed</string>
+    <string name="foto_actualizada">Photo updated</string>
+    <string name="error_actualizar_foto">Could not update photo</string>
+    <string name="nombre_actualizado">Name updated</string>
+    <string name="error_actualizar_nombre">Could not update name</string>
+
+    <!-- AdminParqueosScreen -->
+    <string name="parking_title">Parkings</string>
+    <string name="refreshing_parkings_toast">Refreshing parkings...</string>
+    <string name="cd_refresh">Refresh</string>
+    <string name="cd_new_parking">New parking</string>
+    <string name="cd_change_language">Change language</string>
+
+    <string name="my_parkings">My parkings</string>
+    <string name="no_approved_or_disabled">You have no approved or disabled parkings</string>
+    <string name="my_requests">My requests</string>
+    <string name="no_pending_or_rejected">You have no pending or rejected requests</string>
+
+    <string name="loading_parkings">Loading your parkings...</string>
+    <string name="retry">Retry</string>
+
+    <string name="request_status_prefix">Request status: </string>
+    <string name="status_approved">Approved</string>
+    <string name="status_rejected">Rejected</string>
+    <string name="status_pending">Pending</string>
+
+    <string name="parking_status_prefix">Parking status: </string>
+    <string name="parking_disabled">Disabled</string>
+    <string name="available_parkings_prefix">Available parkings: </string>
+
+    <!-- ================================ DRIVER ================================ -->
+    <string name="driver_role_fallback">Driver</string>
+    <string name="driver_wallet_info">Here you can see your income and withdrawal methods.</string>
+    <string name="driver_help_title">Driver FAQ</string>
+    <string name="driver_recent_activity">Recent activity</string>
+
+    <!-- ===================== REQUEST CREATED ===================== -->
+    <string name="request_created_title">Request created successfully</string>
+    <string name="request_created_message">Your request has been sent and we are validating the data.</string>
+    <string name="go_home">Go to home</string>
+    <string name="close_cd">Close</string>
+    <string name="success_cd">Success</string>
+
+    <string name="complete_all_fields_error">All fields must be filled in</string>
+    <string name="request_creation_failed">The request could not be created. Please try again later!</string>
+
+    <string name="profile_photo_updated">Photo updated</string>
+    <string name="profile_photo_removed">Photo removed</string>
+    <string name="profile_photo_update_error">Error updating photo</string>
+
+    <string name="profile_name_updated">Name updated</string>
+    <string name="profile_name_update_error">Error updating name</string>
+
+    <string name="image_cropped_success">Image cropped successfully</string>
+    <string name="image_crop_error">Crop error: %1$s</string>
+    <string name="image_crop_canceled">Crop canceled</string>
+    <string name="image_process_error">Error processing image: %1$s</string>
+    <string name="image_not_selected">No image selected</string>
+    <string name="crop_toolbar_title">Crop profile image</string>
+
+    <string name="permissions_granted">Permissions granted</string>
+    <string name="permissions_required_images">Permissions are required to access images</string>
+
+    <!-- Sheet options -->
+    <string name="edit_profile_photo_action">Edit profile photo</string>
+    <string name="remove_profile_photo_action">Remove profile photo</string>
+    <string name="edit_name_action">Edit Name</string>
+    <string name="change_password_action">Change Password</string>
+
+    <!-- Name bottom sheet -->
+    <string name="prompt_new_name">Enter your new name</string>
+    <string name="change_name_button">Change Name</string>
+
+    <string name="parking_disabled_success">The parking lot has been disabled successfully</string>
+
+    <!-- AddCardScreen (EN) -->
+    <string name="add_card_action">Add</string>
+    <string name="processing_ellipsis_es">Processing…</string>
+    <string name="stripe_not_ready_error">Stripe is not ready, please try again</string>
+    <string name="invalid_date_error">Invalid date</string>
+
+    <!-- Result messages -->
+    <string name="add_payment_method_success">The new payment method has been successfully added.</string>
+    <string name="add_payment_method_error">The payment method could not be added. Please try again later.</string>
+
+    <!-- Technical errors -->
+    <string name="stripe_bootstrap_error_http_es">Error initializing Stripe (HTTP %1$d)</string>
+    <string name="network_error_with_reason">Network error: %1$s</string>
+    <string name="setup_intent_creation_failed_http_es">Could not create SetupIntent (HTTP %1$d)</string>
+    <string name="add_card_failed_fallback">Failed to add card</string>
+
+    <!-- Delete payment method results -->
+    <string name="delete_payment_method_success">The payment method has been deleted successfully.</string>
+    <string name="delete_payment_method_error">The payment method could not be deleted. Please try again later.</string>
+
+    <!-- Edit payment method results -->
+    <string name="edit_payment_method_success">The payment method has been updated successfully.</string>
+    <string name="edit_payment_method_error">The payment method could not be updated. Please try again later.</string>
+    <string name="editing_ellipsis_es">Saving changes…</string>
+
+    <!-- Login screen (EN) -->
+    <string name="id_or_email_label">Email</string>
+    <string name="login_action">Sign in</string>
+    <string name="dont_have_account_q">Don’t have an account?</string>
+    <string name="register_here">Register here</string>
+    <string name="forgot_password_link">I forgot my password</string>
+    <string name="passwords_not_equal_error">Passwords do not match</string>
+
+    <!-- Recover / Reset password flow (EN) -->
+    <string name="email_not_found_error">Email not found</string>
+    <string name="code_not_found_error">Code not found</string>
+    <string name="invalid_or_expired_code_error">Invalid or expired code</string>
+    <string name="password_min_length_error">The password must be at least %1$d characters long</string>
+    <string name="password_update_error">Error updating password</string>
+
+    <!-- Login errors (EN) -->
+    <string name="server_empty_response_error">Empty server response</string>
+    <string name="invalid_credentials_error">Email or password is incorrect.</string>
+    <string name="credentials_error_generic">Credentials error</string>
+
+    <!-- Parking detail (EN) -->
+    <string name="schedule_not_available">Schedule not available</string>
+    <string name="open_today_until_format">Open today until %1$s</string>
+    <string name="out_of_hours_now">Currently outside operating hours</string>
+    <string name="out_of_hours_with_time">Outside hours for now. Opens today at %1$s</string>
+    <string name="no_spaces_available_now">No spaces available now</string>
+    <string name="error_time_range">Invalid time range</string>
+    <string name="parking_not_found">Parking lot not found</string>
+    <string name="availability_validation_error">Error validating availability</string>
+    <string name="availability_query_error_http">Error fetching availability (%1$d)</string>
+    <string name="checking_availability_ellipsis">Checking availability…</string>
+    <string name="unavailable_label">Unavailable</string>
+    <string name="distance_from_you_fmt">%1$s away</string>
+    <string name="available_now_count_format">%1$d available now</string>
+    <string name="no_characteristics_reported">No reported features</string>
+
+    <!-- ReservaConfirmacionScreen (EN) -->
+    <string name="reservation_confirmation_title">Reservation confirmation</string>
+    <string name="continue_action">Continue</string>
+    <string name="price_per_hour_compact_format">%1$s$ per hour</string>
+    <string name="open_until_prefix">Open until </string>
+    <string name="stay_time_label">Duration of stay</string>
+    <string name="hour_singular">hour</string>
+    <string name="hour_plural">hours</string>
+    <string name="subtotal_label">Subtotal</string>
+    <string name="discounts_offers_label">Discounts or offers</string>
+    <string name="taxes_and_fees_label">Taxes and other fees</string>
+    <string name="total_label">Total</string>
+    <string name="select_payment_method_prompt">Select a payment method</string>
+    <string name="change_action">Change</string>
+
+    <!-- ReservaFormScreen (EN) -->
+    <string name="creating_ellipsis">Creating…</string>
+    <string name="could_not_verify_availability">Could not verify availability</string>
+    <string name="no_availability_for_range">No availability for that time range</string>
+    <string name="could_not_create_reservation">Could not create reservation</string>
+    <string name="closed_today">Closed today</string>
+    <string name="price_per_hour_dop_format">%1$s DOP per hour</string>
+
+    <string name="open_in_maps">Open in Maps</string>
+    <string name="done_action">Done</string>
+    <string name="could_not_calculate_route">Could not calculate the route.</string>
+    <string name="you_label">You</string>
+
+    <string name="filter_title">Filter</string>
+    <string name="filter_subtitle">Refine your search by price and features.</string>
+    <string name="price_per_hour_dop_title">Price per hour (DOP)</string>
+    <string name="min_label_fmt">Min: %1$d</string>
+    <string name="max_label_fmt">Max: %1$d</string>
+    <string name="range_dop_format">Range: DOP %1$d – %2$d</string>
+    <string name="clear_action">Clear</string>
+
+    <string name="no_results_message">No results.</string>
+    <string name="results_title">Results</string>
+    <string name="filters_cd">Filters</string>
+    <string name="filter_with_count_format">Filter (%1$d)</string>
+
+    <string name="parked_until_prefix">Parked until</string>
+    <string name="resolve_things_hint">Take care of what you need—your car will be waiting for you</string>
+    <string name="qr_code_title">QR Code</string>
+    <string name="qr_cd">QR</string>
+    <string name="show_this_code_to_staff">Show this code to the staff</string>
+</resources>

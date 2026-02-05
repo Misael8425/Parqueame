@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: parqueame-backend
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: MONGO_URI
+        value: "mongodb+srv://admin:Parqueame@parqueameprueba.l5zrueu.mongodb.net/?retryWrites=true&w=majority&appName=ParqueamePrueba"
+        sync: false
+      - key: MONGODB_NAME
+        value: "Parqueame"
+        sync: false

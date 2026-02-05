@@ -1,0 +1,7 @@
+<resources>
+    <attr name="ucrop_color_toolbar" format="color" />
+    <attr name="ucrop_color_statusbar" format="color" />
+    <attr name="ucrop_color_widget_active" format="color" />
+    <attr name="ucrop_color_widget_background" format="color" />
+    <attr name="ucrop_color_controls" format="color" />
+</resources>

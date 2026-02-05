@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+.common-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 23.75px 30px; /* Ajustado el padding vertical para una altura total de 87.5px */
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  min-height: 40px; /* Ajustado el min-height */
+  width: 1143px; /* Establecido a un ancho fijo de 1143px */
+  box-sizing: border-box;
+}
+
+.common-header .app-logo {
+  height: 45px; /* Aumentado el tamaño del logo */
+  width: auto;
+}
+
+.common-nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-button {
+  background: none;
+  border: none;
+  font-size: 1.2em; /* Aumentado el tamaño de fuente de los botones de navegación */
+  color: #6c757d;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-bottom: 3px solid transparent;
+  transition: all 0.3s ease;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.nav-button:hover {
+  color: #0056b3;
+}
+
+.nav-button.active {
+  color: #007bff;
+  border-bottom-color: #007bff;
+  font-weight: 600;
+}

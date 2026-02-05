@@ -1,0 +1,23 @@
+<resources>
+    <!-- Tema base para UCrop -->
+    <style name="Theme.UCrop.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#2196F3</item>
+        <item name="colorPrimaryDark">#1976D2</item>
+        <item name="colorAccent">#FF4081</item>
+
+        <!-- Permitir que el contenido se dibuje bajo la status bar pero respetando padding -->
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">#1976D2</item>
+    </style>
+
+    <!-- Tema personalizado -->
+    <style name="Theme.UCrop.Custom" parent="Theme.UCrop.Base">
+        <item name="ucrop_color_toolbar">#FF2196F3</item>
+        <item name="ucrop_color_statusbar">#FF1976D2</item>
+        <item name="ucrop_color_widget_active">#FFFFFFFF</item>
+        <item name="ucrop_color_widget_background">#FF424242</item>
+        <item name="ucrop_color_controls">#FFFFFFFF</item>
+    </style>
+</resources>

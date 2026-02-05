@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+/* Estilos generales para el cuerpo de la página */
+body {
+  margin: 0;
+  /* Ajuste de tipografía general a DM Sans */
+  font-family: 'DM Sans', 'Inter', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f8f9fa; /* Fondo gris muy claro */
+  color: #343a40; /* Color de texto general más oscuro */
+}
+
+.solicitudes-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+.solicitudes-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #ffffff; /* Fondo blanco */
+  border-bottom: 1px solid #e9ecef; /* Borde inferior más sutil */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.solicitudes-header .app-logo {
+  height: 40px; /* Ajusta la altura del logo en el header */
+  width: auto; /* Mantiene la proporción */
+}
+
+.solicitudes-nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-button {
+  background: none;
+  border: none;
+  font-size: 1.1em;
+  color: #6c757d; /* Gris más suave para botones inactivos */
+  cursor: pointer;
+  padding: 10px 15px;
+  border-bottom: 3px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.nav-button:hover {
+  color: #0056b3; /* Azul más oscuro al pasar el ratón */
+}
+
+.nav-button.active {
+  color: #007bff; /* Azul vibrante para el botón activo */
+  border-bottom-color: #007bff;
+  font-weight: 600; /* Un poco más de peso */
+}
+
+/* Main Content */
+.solicitudes-main-content {
+  padding: 30px;
+  flex-grow: 1;
+  background-color: #f8f9fa; /* Fondo gris muy claro */
+}
+
+.solicitudes-heading {
+  font-size: 1.8em;
+  color: #007bff; /* Azul para el título "Solicitudes" */
+  margin-bottom: 25px;
+  font-weight: 600;
+  text-align: left; /* Alinea el texto a la izquierda */
+}
+
+/* Filter Section */
+.filter-section {
+  background-color: #ffffff; /* Fondo blanco */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Distribuye el espacio entre la caja de búsqueda y los filtros */
+  gap: 20px; /* Espacio entre los elementos principales (search-box y filters) */
+  flex-wrap: wrap; /* Permite que los elementos se envuelvan en pantallas pequeñas */
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid #dee2e6; /* Borde más definido */
+  border-radius: 5px;
+  padding: 8px 12px;
+  background-color: #f8f9fa; /* Fondo muy claro para el input */
+  flex-grow: 1; /* Permite que crezca para ocupar espacio */
+  max-width: 400px; /* Ancho máximo para la caja de búsqueda */
+  min-width: 250px; /* Ancho mínimo para la caja de búsqueda */
+}
+
+.search-box svg {
+  color: #6c757d; /* Color del icono de búsqueda */
+  margin-right: 10px;
+}
+
+.search-box input {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 1em;
+  width: 100%;
+  color: #495057; /* Color de texto del input */
+}
+
+.filters {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Espacio reducido entre los elementos dentro de los filtros */
+  flex-wrap: wrap;
+}
+
+.filters span {
+  font-weight: 600; /* Más peso para "Filtrar por:" */
+  color: #007bff; /* Azul para "Filtrar por:" */
+}
+
+.filters label {
+  color: #495057; /* Color de etiqueta */
+  font-weight: normal;
+}
+
+.filters select,
+.filters input[type="date"] {
+  padding: 8px 12px;
+  border: 1px solid #dee2e6; /* Borde más definido */
+  border-radius: 5px;
+  font-size: 1em;
+  background-color: #f8f9fa; /* Fondo muy claro */
+  cursor: pointer;
+  color: #495057; /* Color de texto del input/select */
+}
+
+.calendar-icon {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calendar-icon svg {
+  color: #007bff; /* Azul vibrante para el icono de calendario */
+  font-size: 1.2em;
+}
+
+.filter-button {
+  background-color: #007bff; /* Azul vibrante */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: 600; /* Más peso para el texto del botón */
+}
+
+.filter-button:hover {
+  background-color: #0056b3; /* Azul más oscuro al pasar el ratón */
+}
+
+/* Table Section */
+.solicitudes-table-container {
+  background-color: #ffffff; /* Fondo blanco */
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  overflow-x: auto;
+}
+
+.solicitudes-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.solicitudes-table th,
+.solicitudes-table td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #e9ecef; /* Borde inferior de celdas más sutil */
+  color: #495057; /* Color de texto de la tabla */
+}
+
+.solicitudes-table th {
+  background-color: #f8f9fa; /* Fondo muy claro para el encabezado de la tabla */
+  font-weight: 600; /* Más peso para los encabezados */
+  color: #343a40; /* Color de texto de encabezado más oscuro */
+  text-transform: uppercase;
+  font-size: 0.9em;
+}
+
+.solicitudes-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.solicitudes-table tbody tr:hover {
+  background-color: #f2f2f2; /* Gris más claro al pasar el ratón */
+}

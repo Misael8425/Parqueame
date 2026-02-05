@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+.razon-rechazo-container {
+  /* Ya no es fixed ni cubre toda la pantalla, es el contenedor principal de la página */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 60px); /* Ajusta la altura para que el contenido se centre debajo del header. Asumiendo 60px para el header. */
+  padding: 20px; /* Añade un poco de padding alrededor del contenido */
+  box-sizing: border-box;
+  font-family: 'DM Sans', sans-serif;
+  background-color: transparent; /* El fondo de la página será blanco por defecto o definido en el body */
+}
+
+.razon-rechazo-content {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 500px; /* Ancho máximo para el modal */
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.razon-rechazo-content h2 {
+  font-size: 1.8em;
+  color: #343a40;
+  margin-bottom: 15px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.razon-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.razon-group label {
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: #495057;
+  font-size: 1em;
+}
+
+.razon-group textarea {
+  width: 100%;
+  min-height: 150px; /* Altura mínima para el área de texto */
+  padding: 12px 15px;
+  border: 1px solid #e9ecef;
+  border-radius: 5px;
+  background-color: #f8f9fa; /* Fondo más claro para el textarea (un gris muy suave) */
+  font-size: 1em;
+  color: #343a40; /* Color de texto oscuro para el textarea */
+  outline: none;
+  resize: vertical; /* Permite redimensionar verticalmente */
+  box-sizing: border-box;
+}
+
+.close-button {
+  padding: 12px 25px;
+  background-color: #007bff; /* Azul */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  align-self: center; /* Centra el botón */
+  width: 100%; /* Ajustado a 100% para que sea más ancho como en la imagen */
+  max-width: 200px; /* Limita el ancho máximo del botón */
+}
+
+.close-button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+.close-button:active {
+  transform: translateY(0);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .razon-rechazo-content {
+    padding: 20px;
+    width: 95%;
+  }
+
+  .razon-rechazo-content h2 {
+    font-size: 1.5em;
+  }
+
+  .razon-group textarea {
+    min-height: 120px;
+  }
+
+  .close-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    width: 100%; /* Asegura que sea 100% en móviles también */
+    max-width: none; /* Elimina el max-width en móviles */
+  }
+}

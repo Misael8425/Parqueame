@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+.solicitud-aceptada-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+  font-family: 'DM Sans', sans-serif;
+  color: #343a40;
+}
+
+.solicitud-aceptada-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.solicitud-aceptada-heading {
+  font-size: 2.5em;
+  color: #007bff;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+.status-accepted {
+  color: #004085; /* Azul oscuro para "Aceptada" */
+}
+
+.checkmark-circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #007bff; /* Fondo azul del círculo */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.checkmark-icon {
+  width: 80px;
+  height: 80px;
+  stroke-width: 3;
+  stroke: #fff; /* Color blanco para el checkmark */
+  stroke-miterlimit: 10;
+}
+
+.checkmark-circle-path {
+  stroke-dasharray: 166;
+  stroke-dashoffset: 166;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+}
+
+.checkmark-check {
+  transform-origin: 50% 50%;
+  stroke-dasharray: 48;
+  stroke-dashoffset: 48;
+  animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
+}
+
+@keyframes stroke {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+.close-button {
+  padding: 15px 40px;
+  background-color: #004085; /* Azul oscuro */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.2em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.close-button:hover {
+  background-color: #002752;
+  transform: translateY(-2px);
+}
+
+.close-button:active {
+  transform: translateY(0);
+}
