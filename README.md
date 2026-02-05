@@ -1,4 +1,4 @@
-# ![Parquéame Banner](Frontend_Parqueame/IMG/Parqu%C3%A9ame.svg)
+# ![Parquéame Banner](Frontend_Parqueame/img/Parquéame.svg)
 
 <p align="center">
   <img src="https://img.shields.io/badge/Kotlin-1.9.0-blue?style=flat&logo=kotlin" alt="Kotlin">
